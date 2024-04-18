@@ -1,8 +1,8 @@
 import argparse
 from os import path as osp
 
-from basicsr.utils import scandir
-from basicsr.utils.lmdb_util import make_lmdb_from_imgs
+from Restormer.basicsr.utils import scandir
+from Restormer.basicsr.utils.lmdb_util import make_lmdb_from_imgs
 
 def prepare_keys(folder_path, suffix='png'):
     """Prepare image path list and keys for DIV2K dataset.
